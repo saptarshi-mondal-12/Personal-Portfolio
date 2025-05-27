@@ -6,7 +6,7 @@
     text-decoration: none;
     border: none;
     outline: none;
-    font-family: 'obviously-narrow','Helvetica',sans-serif;
+    font-family: "Noto Sans", 'obviously-narrow', "sans-serif";
     scroll-behavior: smooth;
 }
 :root{
@@ -210,21 +210,24 @@ span{
 /* education section */
 
 .education{
-    background-color: rgb(255, 255, 255);
+    background-color: #2A0C35;
 }
 .education span{
-    color: var(--white-color);
+    color: #6B2784;
 }
 .span-education{
-    /* padding: 1rem 1rem 1rem 1rem; */
-    background-color: #3497DB;
+    border-radius: 1rem;
+    background-color: #CE96FF;
 }
+
+
+
 .education h2{
     margin-bottom: 5rem;
     font-weight: 900;
     font-size: 7rem;
     text-align: center; 
-    color: var(--bg-color);
+    color: #FF959E;
 }
 
 .education-container{
@@ -237,18 +240,18 @@ span{
 
 .education-container .education-box{
     flex:1 1 30rem;
-    background: #FEC200;
+    background: #D0BCFF;
     padding: 3rem 2rem 4rem;
     border-radius: 2rem;
     text-align: center;
-    border: .2rem solid var(--bg-color);
+    border: .5rem solid var(--bg-color);
     transition: .5s ease;
     color: black;
     
 }
 
 .education-container .education-box:hover{
-    border-color: #008141;
+    border-color: #FB7C89;
     transform: scale(1.05);
     transition: .5s ease;
 }
@@ -256,7 +259,7 @@ span{
 .education-box i{
     margin-bottom: 3rem;
     font-size: 7rem;
-    color: #008141;
+    color: #3497DB;
 }
 
 .education-box h3{
@@ -275,9 +278,10 @@ span{
 
 
 
+
 /* skills design */
 .skills{
-    background: #008141;
+    background: #6B2D72;
 }
 
 .skills h2{
@@ -355,7 +359,6 @@ span{
     background-color: white;
 }
 .web-dev i{
-    /* margin-bottom: 3rem; */
     font-size: 6rem;
     color: var(--main-color);
 }
@@ -398,8 +401,9 @@ span{
 .projects-box:hover img{
     width: 100%;
     transform: scale(1.1);
-    
+    transition: .5s ease;
 }
+
 
 .projects-box .projects-layer{
     position: absolute;
