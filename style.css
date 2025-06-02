@@ -21,37 +21,37 @@
 
 @font-face {
     font-family: 'MyFont-regular';
-    src: url('/HitmarkerFonts/18082023_Hitmarker/Text/WOFF/HitmarkerText-Regular.woff2')
+    src: url('/Fonts/HitmarkerText-Regular.woff2')
 }
 
 @font-face {
     font-family: 'MyFont-text-Bold';
-    src: url('/HitmarkerFonts/18082023_Hitmarker/Text/TTF/HitmarkerText-Bold.ttf') 
+    src: url('/Fonts/HitmarkerText-Bold.ttf') 
 }
 
 @font-face {
     font-family: 'MyFont';
-    src: url('/HitmarkerFonts/18082023_Hitmarker/Text/WOFF/HitmarkerText-Medium.woff2') 
+    src: url('/Fonts/HitmarkerText-Medium.woff2') 
 }
 
 @font-face {
     font-family: 'name-logo-font';
-    src: url('/HitmarkerFonts/18082023_Hitmarker/Display/Normal/TTF/HitmarkerNormal-Regular.ttf') 
+    src: url('/Fonts/HitmarkerNormal-Regular.ttf') 
 }
 
 @font-face {
     font-family: 'name-text-font';
-    src: url('/HitmarkerFonts/18082023_Hitmarker/Display/Condensed/TTF/HitmarkerCondensed-Black.ttf') 
+    src: url('/Fonts/HitmarkerCondensed-Black.ttf') 
 }
 
 @font-face {
     font-family: 'headings-font';
-    src: url('/HitmarkerFonts/18082023_Hitmarker/Display/Condensed/TTF/HitmarkerCondensed-Medium.ttf') 
+    src: url('/Fonts/HitmarkerCondensed-Medium.ttf') 
 }
 
 @font-face {
     font-family: 'education';
-    src: url('/HitmarkerFonts/18082023_Hitmarker/Display/Normal/TTF/HitmarkerNormal-Bold.ttf')
+    src: url('/Fonts/HitmarkerNormal-Bold.ttf')
 }
 
 
