@@ -1,3 +1,15 @@
+
+// 1) Prevent browser from “remembering” scroll on reload:
+if ('scrollRestoration' in history) {
+    history.scrollRestoration = 'manual';
+}
+
+// 2) Ensure we start at (0,0) once all content (especially images) have loaded:
+window.addEventListener('load', () => {
+    window.scrollTo(0, 0);
+});
+
+
 let menuIcon = document.querySelector('#menu-icon');
 let navbar = document.querySelector('.navbar');
 
@@ -55,3 +67,28 @@ const typed=new Typed('.multiple-text',{
     backDelay:1000,
     loop: true
 });
+
+
+
+const modal = document.getElementById("imgModal");
+const modalImg = document.getElementById("modalImage");
+const closeBtn = document.getElementsByClassName("close")[0];
+
+document.querySelectorAll(".image-overlay img").forEach(img => {
+    img.addEventListener("click", function() {
+        modal.style.display = "block";
+        modalImg.src = this.getAttribute("data-alt-src") || this.src;
+    });
+});
+
+closeBtn.onclick = function() {
+    modal.style.display = "none";
+};
+
+window.onclick = function(event) {
+    if (event.target === modal) {
+        modal.style.display = "none";
+    }
+};
+
+
